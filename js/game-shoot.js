@@ -58,7 +58,7 @@
   let wordRounds = [];   // for word mode: array of {hint, sentence?, targetWords[], wordBank[]}
 
  
-    // ---- Fill selectsconst speakToggle = document.querySelector('#shootSpeakHint');
+  const speakToggle = document.querySelector('#shootSpeakHint');
   if (window.TTS) {
     // Initialize from storage
     speakToggle && (speakToggle.checked = TTS.getEnabled());
