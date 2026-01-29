@@ -56,8 +56,15 @@
   let nextIndex = 0;        // next needed index
   
   let wordRounds = [];   // for word mode: array of {hint, sentence?, targetWords[], wordBank[]}
+
+ 
+    // ---- Fill selectsconst speakToggle = document.querySelector('#shootSpeakHint');
+  if (window.TTS) {
+    // Initialize from storage
+    speakToggle && (speakToggle.checked = TTS.getEnabled());
+    speakToggle && speakToggle.addEventListener('change', () => TTS.setEnabled(speakToggle.checked));
+  }
   
-  // ---- Fill selects
   function fill(sel, items) {
     sel.innerHTML = '';
     items.forEach(v => sel.append(new Option(v, v)));
@@ -223,6 +230,14 @@
     nextIndex = 0;
     rowY = 40;
     renderProgress();
+      
+    // ✅ NEW: speak the hint (choose the language you need)
+    if (window.TTS) {
+      // Example languages: 'en-US', 'en-GB', 'es-ES', 'nl-NL'
+      const lang = 'en-US'; // change if your hints are Spanish/Dutch/etc.
+      TTS.speak(hintEl?.textContent || '', lang, { rate: 1.0, pitch: 1.0 });
+    }
+
   }
     
     function nextRoundOrFinish() {
@@ -240,6 +255,8 @@
   // ---- Start a session
   function start() {
     disablePreviewButtons();
+    if (window.TTS) TTS.stop();
+    
     const item = pickItem();
 
     bullets = []; ships = [];
@@ -400,6 +417,8 @@
   // ---- Finish
   function finish() {
     enablePreviewButtons();
+    if (window.TTS) TTS.stop();
+    
     if (!running) return;
     running = false;
     cancelAnimationFrame(rafId);
