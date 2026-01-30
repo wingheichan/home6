@@ -33,7 +33,8 @@
   const PLAYER_STEP_KEY = 8;     // px per left/right key press
   const PLAYER_STEP_TAP = 28;    // px per mobile tap
   const COOLDOWN_MS = 200;       // delay between shots
-
+  const langSelect = document.querySelector('#shootHintLang');
+  
   // ---- Game state
   let running = false, rafId = 0;
   let score = 0, correct = 0, combo = 0;
@@ -61,8 +62,14 @@
   const speakToggle = document.querySelector('#shootSpeakHint');
   if (window.TTS) {
     // Initialize from storage
-    speakToggle && (speakToggle.checked = TTS.getEnabled());
-    speakToggle && speakToggle.addEventListener('change', () => TTS.setEnabled(speakToggle.checked));
+    
+    const saved = localStorage.getItem('shoot:tts:lang') || 'en-US';
+      if (langSelect) langSelect.value = saved;
+    
+      langSelect?.addEventListener('change', () => {
+        localStorage.setItem('shoot:tts:lang', langSelect.value);
+      });
+
   }
   
   function fill(sel, items) {
@@ -235,7 +242,10 @@
     if (window.TTS) {
       // Example languages: 'en-US', 'en-GB', 'es-ES', 'nl-NL'
       const lang = 'en-US'; // change if your hints are Spanish/Dutch/etc.
+      if (window.TTS) {
+      const lang = localStorage.getItem('shoot:tts:lang') || 'en-US';
       TTS.speak(hintEl?.textContent || '', lang, { rate: 1.0, pitch: 1.0 });
+      }
     }
 
   }
