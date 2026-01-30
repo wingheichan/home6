@@ -125,10 +125,17 @@
         <button id="shootPreview" class="btn">Preview</button>
         <button id="shootStart" class="btn btn-primary">Start</button>
 
-        <label style="display:inline-flex;align-items:center;gap:6px">
-          <input type="checkbox" id="shootSpeakHint">
-          <span>Speak hint</span>
+        <label style="display:inline-flex; align-items:center; gap:6px;">
+          <span>Hint language:</span>
+          <select id="shootHintLang">
+            <option value="en-US">English</option>
+            <option value="de-DE">German</option>
+            <option value="fr-FR">French</option>
+            <option value="es-ES">Spanish</option>
+            <option value="nl-NL">Dutch</option>
+          </select>
         </label>
+        
       </div>
     
       <div class="target-row" style="margin:.5rem 0">
