@@ -17,8 +17,8 @@
           { "hint": "het water", "target": "das Wasser" },
           { "hint": "warm", "target": "warm" }
         ],
-        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ ",
-        "distractors": "QWXYZ",
+        "alphabet": "abcdefghijklmnopqrstuvwxyz ",
+        "distractors": "qwxyz",
         "speed": 1.0,
         "rowSize": 10,          
         "rowStep": 38,          
