@@ -3,7 +3,7 @@
   "Deutsch": {
     "Essen_Wörter_1": [
       {
-        "id": "essen1-letter-rounds",
+        "id": "Essen1-letter-rounds",
         "mode": "letter-rounds",
         "rounds": [
           { "hint": "de koffie", "target": "der Kaffee" },
@@ -25,68 +25,68 @@
         "bulletSpeed": 460
       },
        {
-        "id": "animals-words",
+        "id": "Essen1-words",
         "mode": "word",
         "wordRounds": [
           {
-            "hint": "Farm animal & sound",
-            "sentence": "The cow says moo.",
-            "targetWords": ["THE", "COW", "SAYS", "MOO"],
-            "wordBank": ["THE", "COW", "SAYS", "MOO", "CAT", "HEN", "DUCK"]
+            "hint": "Ik ontbijt elke ochtend met een broodje met kaas",
+            "sentence": "Ich frühstücke jeden Morgen ein Brötchen mit Käse",
+            "targetWords": ["Ich", "frühstücke", "jeden", "Morgen", "ein", "Brötchen", "mit", "Käse"],
+            "wordBank": ["Ich", "frühstücke", "jeden", "Morgen", "ein", "Brötchen", "mit", "Käse", "Gemüse", "oft" ]
           },
           {
-            "hint": "Fast jungle cat",
-            "sentence": "The cheetah runs fast.",
-            "targetWords": ["THE", "CHEETAH", "RUNS", "FAST"],
-            "wordBank": ["THE","CHEETAH","RUNS","FAST","SLOW","LION","ELEPHANT","JUMPS"]
+            "hint": "Als lunch eet ik vaak pasta met groente",
+            "sentence": "Zum Mittagessen esse ich oft Nudeln mit Gemüse",
+            "targetWords": ["Zum", "Mittagessen", "esse", "ich", "oft", "Nudeln", "mit", "Gemüse"],
+            "wordBank": ["Zum", "Mittagessen", "esse", "ich", "oft", "Nudeln", "mit", "Gemüse", "jeden", "und" ]
           },
           {
-            "hint": "Farm animal & sound",
-            "sentence": "The cow says moo.",
-            "targetWords": ["THE", "COW", "SAYS", "MOO"],
-            "wordBank": ["THE", "COW", "SAYS", "MOO", "CAT", "HEN", "DUCK"]
+            "hint": "Om te drinken neem ik een cola en een glas water.",
+            "sentence": "Zum Trinken nehme ich eine Cola und ein Glas Wasser",
+            "targetWords": ["Zum", "Trinken", "nehme", "ich", "eine", "Cola", "und", "ein", "Glas", "Wasser"],
+            "wordBank": ["Zum", "Trinken", "nehme", "ich", "eine", "Cola", "und", "ein", "Glas", "Wasser", "ein", "mit" ]
           },
           {
-            "hint": "Fast jungle cat",
-            "sentence": "The cheetah runs fast.",
-            "targetWords": ["THE", "CHEETAH", "RUNS", "FAST"],
-            "wordBank": ["THE","CHEETAH","RUNS","FAST","SLOW","LION","ELEPHANT","JUMPS"]
+            "hint": "Als toetje eet ik graag ijs of fruit",
+            "sentence": "Zum Nachtisch esse ich gern Eis oder Obst.",
+            "targetWords": ["Zum", "Nachtisch", "esse", "ich", "gern", "Eis", "oder", "Obst"],
+            "wordBank": ["Zum", "Nachtisch", "esse", "ich", "gern", "Eis", "oder", "Obst", "Gemüse", "Iff"]
           },
           {
-            "hint": "Farm animal & sound",
-            "sentence": "The cow says moo.",
-            "targetWords": ["THE", "COW", "SAYS", "MOO"],
-            "wordBank": ["THE", "COW", "SAYS", "MOO", "CAT", "HEN", "DUCK"]
+            "hint": "Pardon, kunt u even komen alstublieft?",
+            "sentence": "Entschuldigung, können Sie bitte kommen?",
+            "targetWords": ["Entschuldigung,", "können", "Sie", "bitte", "kommen?"],
+            "wordBank": ["Entschuldigung,", "können", "Sie", "bitte", "kommen?", "komen?", "U", "bitte?"]
           },
           {
-            "hint": "Fast jungle cat",
-            "sentence": "The cheetah runs fast.",
-            "targetWords": ["THE", "CHEETAH", "RUNS", "FAST"],
-            "wordBank": ["THE","CHEETAH","RUNS","FAST","SLOW","LION","ELEPHANT","JUMPS"]
+            "hint": "De menukaart, alstublieft.",
+            "sentence": "Die Speisekarte, bitte",
+            "targetWords": ["Die", "Der", "Das", "Speisekarte,", "Menukarte,", "Essekarte", "bitte"],
+            "wordBank": ["Die", "Der", "Das", "Speisekarte,", "Menukarte,", "Essekarte", "bitte", "bitten"]
           },
           {
-            "hint": "Farm animal & sound",
-            "sentence": "The cow says moo.",
-            "targetWords": ["THE", "COW", "SAYS", "MOO"],
-            "wordBank": ["THE", "COW", "SAYS", "MOO", "CAT", "HEN", "DUCK"]
+            "hint": "We willen graag bestellen",
+            "sentence": "Wir möchten bestellen",
+            "targetWords": ["Wir", "möchten", "bestellen"],
+            "wordBank": ["Wir", "möchten", "bestellen", "Wei", "willen", "kunnen", "beistellen", "ordernen"]
           },
           {
-            "hint": "Fast jungle cat",
-            "sentence": "The cheetah runs fast.",
-            "targetWords": ["THE", "CHEETAH", "RUNS", "FAST"],
-            "wordBank": ["THE","CHEETAH","RUNS","FAST","SLOW","LION","ELEPHANT","JUMPS"]
+            "hint": "Zullen we samen iets gaan eten?",
+            "sentence": "Wollen wir zusammen etwas essen gehen?",
+            "targetWords": ["Wollen", "wir", "zusammen", "etwas", "essen", "gehen?" ],
+            "wordBank": ["Wollen", "wir", "zusammen", "etwas", "essen", "gehen?", "möchten", "sammen"]
           },
           {
-            "hint": "Farm animal & sound",
-            "sentence": "The cow says moo.",
-            "targetWords": ["THE", "COW", "SAYS", "MOO"],
-            "wordBank": ["THE", "COW", "SAYS", "MOO", "CAT", "HEN", "DUCK"]
+            "hint": "Wat eet jij het liefst?",
+            "sentence": "Was ist dein Lieblingsessen?",
+            "targetWords": ["Was", "ist", "dein", "Lieblingsessen?"],
+            "wordBank": ["Was", "ist", "dein", "Lieblingsessen?", "is", "dir", "liebe?", "Wasser" ]
           },
           {
-            "hint": "Fast jungle cat",
-            "sentence": "The cheetah runs fast.",
-            "targetWords": ["THE", "CHEETAH", "RUNS", "FAST"],
-            "wordBank": ["THE","CHEETAH","RUNS","FAST","SLOW","LION","ELEPHANT","JUMPS"]
+            "hint": "Eet jij liever vlees of vis?",
+            "sentence": "Magst du lieber Fleisch oder Fisch?",
+            "targetWords": ["Magst", "du", "lieber", "Fleisch", "oder", "Fisch?"],
+            "wordBank": ["Magst", "du", "lieber", "Fleisch", "oder", "Fisch?", "liebling", "Gemüse", "dich"]
           }
         ],
         "speed": 1.0,
