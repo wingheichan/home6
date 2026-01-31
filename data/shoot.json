@@ -1,23 +1,23 @@
 
 {
-  "English": {
-    "Animals": [
+  "Deutsch": {
+    "Essen_Wörter_1": [
       {
-        "id": "animals-letter-rounds",
+        "id": "essen1-letter-rounds",
         "mode": "letter-rounds",
         "rounds": [
-          { "hint": "Big cat with stripes", "target": "TIGER" },
-          { "hint": "Large gray mammal",   "target": "ELEPHANT" },
-          { "hint": "King of jungle",      "target": "LION" },
-          { "hint": "Slow reptile",        "target": "TURTLE" },
-          { "hint": "Black‑white bird",    "target": "PENGUIN" },
-          { "hint": "Long neck",           "target": "GIRAFFE" },
-          { "hint": "Loves honey",         "target": "BEAR" },
-          { "hint": "Best friend",         "target": "DOG" },
-          { "hint": "Says meow",           "target": "CAT" },
-          { "hint": "Lives in ocean",      "target": "DOLPHIN" }
+          { "hint": "de koffie", "target": "der Kaffee" },
+          { "hint": "het zout", "target": "das Salz" },
+          { "hint": "de pasta", "target": "die Nudeln" },
+          { "hint": "nemen", "target": "nehmen" },
+          { "hint": "de cola", "target": "die Cola" },
+          { "hint": "het brood", "target": "das Brot" },
+          { "hint": "het glas", "target": "das Glas" },
+          { "hint": "de schnitzel", "target": "das Schnitzel" },
+          { "hint": "het water", "target": "das Wasser" },
+          { "hint": "warm", "target": "warm" }
         ],
-        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ ",
         "distractors": "QWXYZ",
         "speed": 1.0,
         "rowSize": 10,          
