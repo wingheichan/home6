@@ -63,7 +63,7 @@
           {
             "hint": "De menukaart, alstublieft.",
             "sentence": "Die Speisekarte, bitte",
-            "targetWords": ["Die", "Der", "Das", "Speisekarte,", "Menukarte,", "Essekarte", "bitte"],
+            "targetWords": ["Die", "Speisekarte,", "bitte"],
             "wordBank": ["Die", "Der", "Das", "Speisekarte,", "Menukarte,", "Essekarte", "bitte", "bitten"]
           },
           {
