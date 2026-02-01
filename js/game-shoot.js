@@ -30,8 +30,8 @@
   const PLAYER_W = 48, PLAYER_H = 64;
   const SHIP_W   = 48, SHIP_H   = 48;
   const TOKEN_FONT = 16;
-  const PLAYER_STEP_KEY = 8;     // px per left/right key press
-  const PLAYER_STEP_TAP = 28;    // px per mobile tap
+  const PLAYER_STEP_KEY = 14;     // px per left/right key press
+  const PLAYER_STEP_TAP = 44;    // px per mobile tap
   const COOLDOWN_MS = 200;       // delay between shots
   const langSelect = document.querySelector('#shootHintLang');
   
