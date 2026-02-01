@@ -1,8 +1,7 @@
 
 {
   "Deutsch": {
-    "Essen_Wörter_1": [
-      {
+    "Essen_Buchstabe_1": {
         "id": "Essen1-letter-rounds",
         "mode": "letter-rounds",
         "rounds": [
@@ -24,7 +23,7 @@
         "rowStep": 38,          
         "bulletSpeed": 460
       },
-       {
+    "Essen_Wörter_1": {
         "id": "Essen1-words",
         "mode": "word",
         "wordRounds": [
@@ -94,6 +93,5 @@
         "rowStep": 38,
         "bulletSpeed": 460
       }
-    ]
-  }
+   }
 }
